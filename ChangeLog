@@ -1,0 +1,38 @@
+2006-03-05
+	--  ruby-agi-1.1.2 released
+	--	bug # 3733 fixed.
+	--	AGI#initialize will make sure the above bug won't happen.
+
+2006-02-08
+	--	method AsteriskVariable#init_caller_variable updated to have correct callerid
+	--	method ReturnStatus#timeout? updated
+
+2006-01-16 (revision 23)
+	--	ruby-agi-1.1.0 released
+	--	method calleridnumber added and is generated from callerid
+	--	method calleridname gets name from callerid method,
+		currently I found asterisk returns nothing because of missing agi_calleridname
+	--	method jump_to added
+
+2006-01-10 (revision 22)
+	--	following files added to svn repository
+		ruby-agi-1.0.1.gem
+		ruby-agi-1.0.2.gem
+		Release-Notes
+		ruby-agi-1.0.2.tgz
+
+2006-01-09 (revision 21)
+	--	gemspec file updated to work properly with ruby-1.8.3
+
+2006-01-08 (revision 20)
+	--	ruby-agi-1.0.1 released
+
+2006-01-08 (revision 19)
+	--	examples/call_log.rb added
+
+2006-01-08 (revision 18)
+	--	ruby-agi-0.0.2.gem removed from subversion repository
+
+2006-01-08 (revision 17)
+	--	Started to maintain ChangeLog !!
+
