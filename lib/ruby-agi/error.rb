@@ -32,8 +32,8 @@ end
 class HangupError < Exception
 end
 
-class TimeoutError < Exception
-end
+#class TimeoutError < Exception
+#end
 
 class ChannelError < Exception
 end
