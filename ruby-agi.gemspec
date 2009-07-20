@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
      "INSTALL",
      "LICENSE",
      "README",
+     "Rakefile",
      "Release-Notes",
      "VERSION",
      "examples/call_log.rb",
@@ -29,7 +30,8 @@ Gem::Specification.new do |s|
      "lib/ruby-agi/asterisk_variable.rb",
      "lib/ruby-agi/command.rb",
      "lib/ruby-agi/error.rb",
-     "lib/ruby-agi/return_status.rb"
+     "lib/ruby-agi/return_status.rb",
+     "ruby-agi.gemspec"
   ]
   s.homepage = %q{http://github.com/erichmond/ruby-agi}
   s.rdoc_options = ["--charset=UTF-8"]
