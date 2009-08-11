@@ -1,5 +1,0 @@
-require 'ruby-agi/agi'
-require 'ruby-agi/asterisk_variable'
-require 'ruby-agi/command'
-require 'ruby-agi/error'
-require 'ruby-agi/return_status'
